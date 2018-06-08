@@ -1,0 +1,24 @@
+{% load staticfiles %}
+
+<div class="container">
+    <nav class="navbar navbar-light" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="http://www.caonima.com">
+                <img src="{% static '/img/Group.png' %}" width="150px">
+            </a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav" role="navigation">
+                <li>
+                    <a href="{% url 'him:blog_title' %}">BLOG</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">LOGIN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+</div>
